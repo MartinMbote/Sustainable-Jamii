@@ -21,6 +21,7 @@ donateButton.addEventListener('mouseout', function() {
 
 
 
+
 //mouseover event listener (start)
 projectionLink.addEventListener('mouseover', function() {
     projectionLink.style.color = '#FFEB3D';
