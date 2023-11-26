@@ -46,6 +46,23 @@
                 }
             }
 
+            #scroll-down-animation-mobile{
+                animation-name: scroll-up-mobile;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes scroll-up-mobile {
+                0% {
+                    bottom: 10vw;
+                }
+
+                100% {
+                    bottom: 14vw;
+                }
+            }
+
             @media only screen and (min-aspect-ratio: 3/3) {
                 #mobile-version-continer{
                     display: none;
