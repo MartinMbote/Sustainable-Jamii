@@ -28,6 +28,22 @@
             html::-webkit-scrollbar{
                 display: none;
             }
+
+            @media only screen and (min-aspect-ratio: 3/3) {
+                #mobile-version-container{
+                    display: none;
+                }
+            }
+
+            @media only screen and (max-aspect-ratio: 3/3) {
+                nav{
+                    display: none;
+                }
+
+                section{
+                    display: none;
+                }
+            }
         </style>
     </head>
     <body>
@@ -41,6 +57,92 @@
                 <a href="index.html#thematic-programs-section-link" id="Home-link-thematic-programs" style="position: absolute; top: 1.7vw; right: 4vw; font-family: poppins; font-size: 1.1vw; font-weight: 300; text-decoration: none; color: white; transition: color 0.1s ease, top 0.2s ease;">Home</a>
             </div>
         </nav>
+
+        <div id="mobile-version-container">
+            <div id="nav-section" style="position: fixed; left: 0vw; top: 0vw; width: 100vw; height: 17vw; z-index: 10; background-color: #00AB4F;">
+                <img src="Assets/SJ-logo.svg" style="position: absolute; top: 2vw; width: 48vw;">
+
+                <!-- <img src="Assets/home-icon.png" style="position: absolute; right: 5vw; top: 5.5vw; width: 7vw;"> -->
+
+                <a href="index.html#thematic-programs-section-mobile">
+                    <img src="Assets/home-icon.png" style="position: absolute; right: 5vw; top: 5.5vw; width: 7vw;">
+                </a>
+            </div>
+
+            <div id="content-mobile" style="position: absolute; top: 17vw; left: 0vw; width: 100vw; height: 670vw; overflow: hidden;">
+                <img src="Assets/climate-justice-image.png" style="position: fixed; left: -20vw; width: 142vw;">
+
+                <!-- <div id="blur-effect" style="position: fixed; left: 0vw; top: 0vw; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(6px);">
+                </div> -->
+
+                <div id="about-us-text-mobile">
+                    <p style="position: absolute; text-align: center; top: 2.5vw; left: 10vw; width: 80vw; font-family: Inter; font-size: 5.5vw; font-weight: 800;">
+                        <span style="background-color: #E16162;">
+                            CLIMATE JUSTICE
+                        </span>
+                    </p>
+
+                    <p style="position: absolute; top: 22vw; left: 5vw; text-align: center; width: 90vw; font-family: poppins; font-size: 3.8vw; color: white;">
+                        <span style="background: rgba(0, 0, 0, 0.3);">In Climate justice as a thematic area, we are focused on addressing the unequal impacts of climate change on vulnerable populations and advocating for equitable solutions. We recognized that climate change disproportionately affects marginalized communities, including indigenous people, low-income individuals, women, and people of color.
+                        <br> <br>
+                    
+                        The concept of climate justice acknowledges that those who contribute the least to greenhouse gas emissions often bear the greatest burden of the consequences, such as extreme weather events, food and water scarcity, displacement, and health issues. It emphasizes the importance of ensuring fair distribution of resources, promoting human rights, and addressing systemic inequalities in the context of climate change.
+                    
+                        <br><br>
+                    
+                        Climate justice also encompasses the idea of intergenerational equity, emphasizing the responsibilities of current generations in taking action to mitigate climate change and protecting the rights and wellbeing of future generations. It calls for the recognition of climate-related losses and damages, seeking accountability from those who are primarily responsible for causing climate change and supporting affected communities in coping with its impacts.
+                    
+                        <br><br>
+                    
+                        Within this thematic area, we have combined efforts that include advocating for climate policies that prioritize the needs and interests of vulnerable communities, promoting sustainable and just transition towards renewable energy, supporting community-led adaptation and resilience-building initiatives, and fostering awareness and education about climate justice issues.
+                    
+                        <br><br>
+                    
+                        Overall, Sustainable Jamii seeks to address the social, economic, and environmental injustices resulting from climate change, aiming for a more equitable and sustainable future for all.</span>
+
+                        <br><br><br>
+
+                        <span style="background-color: #00AB4F; color: black;">
+                            <em>
+                                &nbsp;1. Smart Agriculture&nbsp;
+                            </em>
+                        </span>
+
+                        <br><br>
+
+                        <span style="background: rgba(0, 0, 0, 0.3);">
+                            Sustainable Jamii has grasped the adaptation of climate that highly affects marginalized communities and regions, leading to climate injustice. In partnerships with local farmers who are in-depth with smart agriculture, we have administered ways in which farmers can also adapt to changing climatic conditions through real-time weather data, predictive analytics, and early warning systems. This will allow farmers to make informed decisions about crop selection, planting times, and irrigation, reducing vulnerabilities and enhancing climate justice.
+
+                            <br><br>
+
+                            Our organization's efforts in bringing this idea will help enhance a better climate justice by finding a way to ensure resource efficiency, climate adaptation, and data-driven decision-making. By equipping farmers with sustainable and equitable solutions, smart agriculture will ensure that all communities can adapt, prosper, and contribute to mitigating the impacts of climate change.
+                        </span>
+
+                        <br><br><br>
+
+                        <span style="background-color: #00AB4F; color: black;">
+                            <em>
+                                &nbsp;2. Recycling waste products&nbsp;
+                            </em>
+                        </span>
+
+                        <br><br>
+
+                        <span style="background: rgba(0, 0, 0, 0.3);">
+                            Waste recycling is a critical component of sustainable environmental management, and our profile is dedicated to highlighting its significance and impact. We are committed to promoting responsible waste disposal practices and fostering a circular economy.
+
+                            <br><br>
+
+                            Through education and awareness campaigns, we strive to inspire individuals and businesses to embrace recycling as a fundamental part of their daily lives. Partnering with local municipalities and recycling facilities, we facilitate convenient and efficient waste collection programs, making it easier for households and businesses to participate. We support research and innovation in waste processing technologies, aiming to reduce waste-to-landfill ratios and promote innovative recycling solutions.
+
+                            <br><br>
+
+                            Our advocacy efforts involve engaging with policymakers and stakeholders to promote legislation and policies that encourage recycling and reduce single-use plastics and non-recyclable materials. We champion the principles of a circular economy, emphasizing the value of reusing, remanufacturing, and recycling materials to minimize waste generation.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <section>
             <div>
