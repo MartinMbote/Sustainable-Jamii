@@ -28,6 +28,22 @@
             html::-webkit-scrollbar{
                 display: none;
             }
+
+            @media only screen and (min-aspect-ratio: 3/3) {
+                #mobile-version-container{
+                    display: none;
+                }
+            }
+
+            @media only screen and (max-aspect-ratio: 3/3) {
+                nav{
+                    display: none;
+                }
+
+                section{
+                    display: none;
+                }
+            }
         </style>
     </head>
     <body>
@@ -41,6 +57,96 @@
                 <a href="index.html#thematic-programs-section-link" id="Home-link-thematic-programs" style="position: absolute; top: 1.7vw; right: 4vw; font-family: poppins; font-size: 1.1vw; font-weight: 300; text-decoration: none; color: white; transition: color 0.1s ease, top 0.2s ease;">Home</a>
             </div>
         </nav>
+
+        <div id="mobile-version-container">
+            <div id="nav-section" style="position: fixed; left: 0vw; top: 0vw; width: 100vw; height: 17vw; z-index: 10; background-color: #00AB4F;">
+                <img src="Assets/SJ-logo.svg" style="position: absolute; top: 2vw; width: 48vw;">
+
+                <!-- <img src="Assets/home-icon.png" style="position: absolute; right: 5vw; top: 5.5vw; width: 7vw;"> -->
+
+                <a href="index.html#thematic-programs-section-mobile">
+                    <img src="Assets/home-icon.png" style="position: absolute; right: 5vw; top: 5.5vw; width: 7vw;">
+                </a>
+            </div>
+
+            <div id="content-mobile" style="position: absolute; top: 17vw; left: 0vw; width: 100vw; height: 670vw; overflow: hidden;">
+                <img src="Assets/peace-and-security-image.png" style="position: fixed; left: -20vw; width: 142vw;">
+
+                <div id="blur-effect" style="position: fixed; left: 0vw; top: 0vw; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(4px);">
+                </div>
+
+                <div id="about-us-text-mobile">
+                    <p style="position: absolute; text-align: center; top: 2.5vw; left: 10vw; width: 80vw; font-family: Inter; font-size: 5.5vw; font-weight: 800;">
+                        <span style="background-color: #FFEB3D;">
+                            &nbsp;PEACE AND SECURITY&nbsp;
+                        </span>
+                    </p>
+
+                    <p style="position: absolute; top: 22vw; left: 5vw; text-align: center; width: 90vw; font-family: poppins; font-size: 3.8vw; color: white;">
+                        <span style="background: rgba(0, 0, 0, 0.3);">Peace and security is a thematic area that focuses on the prevention and resolution of conflicts, the promotion of peace and stability, and ensuring the safety and well-being of individuals and societies. It encompasses both international and domestic efforts to address various forms of violence, including armed conflicts, terrorism, and organized crime.
+                        <br> <br>
+                    
+                        At its core, through peace and security, Sustainable Jamii aims to create a world where people can live in peace, free from fear and violence. This includes advocating for human rights and administering ways to resolve existing conflicts through peaceful means.
+                    
+                        <br><br>
+                    
+                        Peace and security also involve initiatives to disarm and prevent the proliferation of weapons, particularly weapons of mass destruction. Sustainable Jamii aims to address the concerns of the young people who are radicalized to administer violence nationally and regionally by addressing the root causes of conflicts such as poverty, inequality, marginalization, and political and social grievances. Additionally, we emphasize the importance of justice, accountability, and the rule of law in addressing grievances and rebuilding societies affected by conflicts.
+                    
+                        <br><br>
+                    
+                        This thematic area recognizes the interconnectedness between peace, security, and development, understanding that sustainable peace can only be achieved when the underlying violence and conflict are addressed. It emphasizes the need for inclusive and participatory approaches that involve all stakeholders, including governments, civil society organizations, local communities, and international organizations.
+                    
+                        <br><br>
+                    
+                        Overall, peace and security as a thematic area seeks to foster a culture of peace, prevent conflicts, protect vulnerable populations, and promote stability and prosperity for individuals and societies. It is crucial for creating a just and sustainable world where all people can thrive in peaceful environments.</span>
+
+                        <br><br><br>
+
+                        <span style="background-color: #FFEB3D; color: black;">
+                            <em>
+                                &nbsp;1. Children in Conflicted Areas&nbsp;
+                            </em>
+                        </span>
+
+                        <br><br>
+
+                        <span style="background: rgba(0, 0, 0, 0.3);">
+                            Sustainable Jamii notes how important it is that the specific actions and strategies employed by the organization are based on our expertise and the unique challenges of the conflict-affected area we are working in. Having collaborated with different actors, including governments, international agencies, and local NGOs, it has become effective in addressing the needs of children in conflicted areas.
+
+                            <br><br>
+
+                            We focus on ensuring the safety and protection of children by establishing safe spaces and child-friendly zones that work to prevent the recruitment of child soldiers and protect children from violence, abuse, and exploitation.
+
+                            <br><br>
+
+                            We have worked hand in hand with community health volunteers in public hospitals to provide healthcare services that are essential in conflict zones where children may be susceptible to injuries, diseases, and malnutrition. Medical facilities are set up or supported to address the health needs of children and their families.
+                        </span>
+
+                        <br><br><br>
+
+                        <span style="background-color: #FFEB3D; color: black;">
+                            <em>
+                                &nbsp;2. Refugees&nbsp;
+                            </em>
+                        </span>
+
+                        <br><br>
+
+                        <span style="background: rgba(0, 0, 0, 0.3);">
+                            Refugees, who have been forced to flee their home countries due to conflict, persecution, or other crises, require assistance in various areas to ensure their safety, well-being, and successful integration into host communities.
+
+                            <br><br>
+
+                            Sustainable Jamii along with other relevant sectors including the governments and the local NGOs, have worked together to develop comprehensive strategies and interventions to address the unique challenges faced by refugees and contribute to their protection, well-being, and long-term stability.
+
+                            <br><br>
+
+                            We have played a critical role in addressing the root causes of displacement and creating an environment where refugees can live in safety and dignity. Collaboration with other sectors, such as humanitarian aid, human rights, and development, has essentially been a comprehensive approach to assisting refugees effectively. We strive to economically empower the refugees to enroll in TVETs and learn skills that in turn help them in the job market and business to sustain themselves.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <section>
             <div>
